@@ -1,0 +1,5 @@
+@media screen and (min-width: 1025px) {
+    div#navbar-ckf a {
+       padding: 13px !important;
+    }
+}

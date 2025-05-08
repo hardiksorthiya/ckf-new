@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --primary-ckf-color: #F58020;
+    --secondary-ckf-color: #032D6E;
+    --title-ckf-color: #161632;
+    --text-ckf-color: #344054;
+    --font-ckf-family: 'Rubik', sans-serif;
+}
+body, p, li, ul, span, div, h1, h2, h3, h4, h5, h6, a {
+    font-family: var(--font-ckf-family);
+    box-sizing: border-box;
+}
+
+/* Navbar */
+div#navbar-ckf a {
+    color: white;
+    font-family: var(--font-ckf-family)
+}
+.ckf-button-dark{
+    background: var(--primary-ckf-color) !important;
+    color: #fff;
+    border: 1px solid var(--primary-ckf-color) !important;
+    border-radius: 50px !important;
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+    transition: all 0.8s ease !important;
+}
+.ckf-button-dark:hover {
+    background: var(--secondary-ckf-color) !important;
+    color: var(--primary-ckf-color) !important;
+    border: 1px solid var(--primary-ckf-color) !important;
+}
+.ckf-dark-bg {
+    background: var(--title-ckf-color);
+}

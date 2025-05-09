@@ -11,7 +11,12 @@ body, p, li, ul, span, div, h1, h2, h3, h4, h5, h6, a {
     font-family: var(--font-ckf-family);
     box-sizing: border-box;
 }
-
+p{
+    color: var(--text-ckf-color);
+}
+a {
+    text-decoration: none !important;
+}
 /* Navbar */
 div#navbar-ckf a {
     color: white;
@@ -30,7 +35,7 @@ div#navbar-ckf a {
     border: 1px solid var(--primary-ckf-color) !important;
     color: var(--primary-ckf-color) !important;
     background: transparent !important;
-    border-radius: 50px;
+    border-radius: 50px !important;
     padding: 10px 20px !important;
     font-size: 14px !important;
     transition: all 0.8s ease !important;
@@ -48,6 +53,63 @@ div#navbar-ckf a {
 .ckf-dark-bg {
     background: var(--title-ckf-color);
 }
+.orange-dot{
+    color: var(--primary-ckf-color) !important;
+}
+.third-button {
+    padding: 0 !important;
+    background: transparent !important;
+    color: var(--primary-ckf-color) !important;
+    border: none !important;
+    font-weight: 500 !important;
+    transition: all 0.8s ease !important;
+}
+.third-button-in-white{
+    padding: 0 !important;
+    background: transparent !important;
+    color: var(--text-ckf-color) !important;
+    border: none !important;
+    font-weight: 500 !important;
+    transition: all 0.8s ease !important;
+}
+.third-button-in-white:hover{
+    color: var(--primary-ckf-color) !important;
+}
+.third-button:hover {
+    color: var(--secondary-ckf-color) !important;
+}
+.third-button-in-white svg .arrow-primary{
+    stroke: var(--text-ckf-color);
+}
+.third-button-in-white:hover svg .arrow-primary{
+    stroke : var(--primary-ckf-color) !important;
+}
+.third-button:hover svg {
+    background: white;
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    border-radius: 20px;
+    transform: translateX(10px);
+    transition: all 0.8s ease-in-out !important;
+}
+.third-button:hover svg .arrow-primary {
+    stroke: var(--secondary-ckf-color);
+}
+.arrow-primary {
+    fill: none;
+    stroke: var(--primary-ckf-color);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.5px;
+  }
+  .cloud_point_primary {
+    fill: var(--primary-ckf-color);
+  }
+    .cloud_point_secondary {
+        fill: var(--secondary-ckf-color);
+    }
+ 
 /* Hero Section */
 .circle-one {
     fill: none;
@@ -73,6 +135,7 @@ svg.circle-one-svg {
 }
 svg.circle-second-svg, svg.circle-third-svg, svg.circle-fourth-svg, svg.circle-fifth-svg, svg.circle-six-svg, svg.circle-seven-svg {
     position: absolute;
+    width: 100%;
 }
 .hero-image {
     position: absolute;
@@ -152,6 +215,11 @@ section.hero-section {
   }
   h1.hero-title.text-white {
     font-size: 58px;
+}
+/* About Section */
+section.about-home {
+    background: #F2F3F4;
+    padding: 78px 0;
 }
 
 

@@ -3,6 +3,7 @@ import Navbar from '../../Include/Navbar/Navbar';
 import Hero from './Hero';
 import About from './About';
 import Services from './Services';
+import Numberstate from './Numberstate';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
    <Hero/>
    <About/>
    <Services/>
+   <Numberstate/>
    </>
   )
 }

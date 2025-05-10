@@ -51,7 +51,7 @@ export default function Hero() {
                   viewBox="0 0 24 13"
                 >
                   <path
-                    class="cloud_point_white"
+                    className="cloud_point_white"
                     d="M19.64,4.62h-.3a4.09,4.09,0,0,0-4.07-3.31,4.17,4.17,0,0,0-2.49.81A4.39,4.39,0,0,0,9,0,4.28,4.28,0,0,0,4.63,4.19a3.25,3.25,0,0,0,0,.44h-.3A4.27,4.27,0,0,0,0,8.81,4.28,4.28,0,0,0,4.36,13H19.64A4.28,4.28,0,0,0,24,8.81,4.27,4.27,0,0,0,19.64,4.62Z"
                     transform="translate(0)"
                   />
@@ -78,7 +78,7 @@ export default function Hero() {
                 viewBox="0 0 622 622"
                 className="circle-one-svg"
               >
-                <circle class="circle-one" cx="311" cy="311" r="310.5" />
+                <circle className="circle-one" cx="311" cy="311" r="310.5" />
               </svg>
               {/* circle second */}
               <svg
@@ -88,7 +88,7 @@ export default function Hero() {
                 viewBox="0 0 550 550"
                 className="circle-second-svg"
               >
-                <circle class="circle-second" cx="275" cy="275" r="274.5" />
+                <circle className="circle-second" cx="275" cy="275" r="274.5" />
               </svg>
               {/* circle Third */}
               <svg
@@ -98,7 +98,7 @@ export default function Hero() {
                 viewBox="0 0 498 498"
                 className="circle-third-svg"
               >
-                <circle class="circle-third" cx="249" cy="249" r="249" />
+                <circle className="circle-third" cx="249" cy="249" r="249" />
               </svg>
               {/* circle fourth */}
               <svg
@@ -108,7 +108,7 @@ export default function Hero() {
                 viewBox="0 0 416 416"
                 className="circle-fourth-svg"
               >
-                <circle class="circle-fourth" cx="208" cy="208" r="207.5" />
+                <circle className="circle-fourth" cx="208" cy="208" r="207.5" />
               </svg>
               {/* circle fifth */}
               <svg
@@ -118,7 +118,7 @@ export default function Hero() {
                 viewBox="0 0 334 334"
                 className="circle-fifth-svg"
               >
-                <circle class="circle-fifth" cx="167" cy="167" r="166.5" />
+                <circle className="circle-fifth" cx="167" cy="167" r="166.5" />
               </svg>
               {/* circle sixth */}
               <svg
@@ -128,7 +128,7 @@ export default function Hero() {
                 viewBox="0 0 290 290"
                 className="circle-six-svg"
               >
-                <circle class="circle-six" cx="145" cy="145" r="145" />
+                <circle className="circle-six" cx="145" cy="145" r="145" />
               </svg>
               {/* circle-seven */}
               <svg
@@ -138,7 +138,7 @@ export default function Hero() {
                 viewBox="0 0 252 252"
                 className="circle-seven-svg"
               >
-                <circle class="circle-seven" cx="126" cy="126" r="125.5" />
+                <circle className="circle-seven" cx="126" cy="126" r="125.5" />
               </svg>
             </div>
             {/* Hero Image */}

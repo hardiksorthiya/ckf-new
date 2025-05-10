@@ -115,7 +115,7 @@ export default function Services() {
                           className="me-2"
                         >
                           <path
-                            class="cloud_point_secondary"
+                            className="cloud_point_secondary"
                             d="M19.64,4.62h-.3a4.09,4.09,0,0,0-4.07-3.31,4.17,4.17,0,0,0-2.49.81A4.39,4.39,0,0,0,9,0,4.28,4.28,0,0,0,4.63,4.19a3.25,3.25,0,0,0,0,.44h-.3A4.27,4.27,0,0,0,0,8.81,4.28,4.28,0,0,0,4.36,13H19.64A4.28,4.28,0,0,0,24,8.81,4.27,4.27,0,0,0,19.64,4.62Z"
                             transform="translate(0)"
                           />
@@ -134,7 +134,7 @@ export default function Services() {
                         viewBox="0 0 16.5 13.5"
                       >
                         <path
-                          class="arrow-primary"
+                          className="arrow-primary"
                           d="M4.5,12.5h15m0,0-5.62-6m5.62,6-5.62,6"
                           transform="translate(-3.75 -5.75)"
                         />

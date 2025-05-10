@@ -28,7 +28,7 @@ export default function About() {
                 viewBox="0 0 16.5 13.5"
               >
                 <path
-                  class="arrow-primary"
+                  className="arrow-primary"
                   d="M4.5,12.5h15m0,0-5.62-6m5.62,6-5.62,6"
                   transform="translate(-3.75 -5.75)"
                 />
